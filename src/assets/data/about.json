@@ -1,0 +1,21 @@
+{
+    "id":"123",
+    "name":"John Doe",
+    "email":"john@gmail.com",
+    "DOB":"12 Jun 1996",
+    "objective":"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis molestias quia dolore vel laboriosam ullam, earum id veniam voluptate obcaecati vero aliquam autem eligendi quos totam",
+    "designation":"Web Developer",
+    "slogan":[ "I'm a Full Stack Developer", "I Love Software Development", "I Love All My Subscribers"],
+    "social_link":[
+        {
+        "name":"facebook",
+        "link":"http://facebook.com"
+    },
+    {
+        "name":"github",
+        "link":"http://github.com"
+    }
+],
+"resume_link":"http://resume_link.com",
+"about_me":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perferendis nisi obcaecati laboriosam, quam possimus illum soluta consequatur deleniti veniam delectus! Inventore doloremque odit ipsum, delectus repellat nobis corporis hic."
+}

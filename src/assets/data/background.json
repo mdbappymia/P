@@ -1,0 +1,31 @@
+{
+    "education":[
+        {
+        "instute_name":"Lorem ipsum dolor sit amet consectetur",
+        "subject":"ipsum dolor sit amet consectetur",
+        "starting_date":"1 Jan 2022",
+        "end_date":"31 Dec 2024",
+        "about_instute":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perferendis nisi obcaecati laboriosam",
+        "experience":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perferendis nisi obcaecati laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perferendis nisi obcaecati laboriosam"
+    }
+],
+    "experience":[
+        {
+        "designation":"Web Developer",
+        "company_name":"Lorem ipsum dolor sit amet consectetur adipisicing",
+        "about_work":"Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing",
+        "working_technologis":["React JS", "Node JS", "C#", "Pythone"],
+        "starting_date":"1 Jan 2022",
+        "end_date":"31 Dec 2024",
+        "about_company":"Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing"
+    }
+],
+    "training":[
+        {
+            "institute_name":"sit amet consectetur adipisicing Lorem",
+            "course_name":"adipisicing Lorem sit amet consectetur adipisicing Lorem",
+            "start_date":"1 Feb 2020",
+            "end_date":"31 Dec 2021"
+        }
+    ]
+}

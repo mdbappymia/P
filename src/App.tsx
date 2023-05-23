@@ -5,7 +5,7 @@ import MainFooter from "./Pages/Shared/Footer";
 
 const App: FC = () => {
   return (
-    <div className="header">
+    <div className="header black">
       <NavBar />
       <Outlet />
       <MainFooter />

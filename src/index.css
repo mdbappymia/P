@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(249, 250, 241);
 }
 
 code {
@@ -22,8 +26,12 @@ code {
 .site__nav, .footer{
   background-color: transparent !important;
 }
-.header {
-  background-color: rgb(249, 250, 241);
+#home {
+  background-image: url('https://images.prismic.io/plotly-marketing-website-2/b884473c-43b2-40a0-bf8d-0c4dc391250d_banner_img_light.jpg?auto=compress,format');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-
+.h-icon{
+  color: rgb(151, 70, 231) !important;
+}

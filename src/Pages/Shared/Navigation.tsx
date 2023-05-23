@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 const NavBar: FC = () => {
   return (
-    <div>
+    <div className="sticky top-0 bg-white z-50">
       <Navbar fluid={false} rounded={true} className="site__nav">
         <NavLink to="/" className="flex">
           <img
@@ -14,11 +14,13 @@ const NavBar: FC = () => {
             alt="Flowbite Logo"
           />
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-            Flowbite
+            Portfolio
           </span>
         </NavLink>
         <div className="flex md:order-2">
-          <Button>View Projects</Button>
+          <Button>
+            <HashLink to="/#projects">View Projects</HashLink>
+          </Button>
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse>

@@ -11,20 +11,28 @@ import Contact from "./components/Contact";
 const Home: FC = () => {
   return (
     <div>
-      <Header />
-      <div className="bg-slate-100">
+      <div id="home">
+        <Header />
+      </div>
+      <div id="about" className="bg-slate-100">
         <About />
       </div>
-      <Skills />
-      <div className="bg-slate-100">
+      <div id="skills">
+        <Skills />
+      </div>
+      <div id="services" className="bg-slate-100">
         <Services />
       </div>
-      <Projects />
-      <div className="bg-slate-100">
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="reviews" className="bg-slate-100">
         <Reviews />
       </div>
-      <Blogs />
-      <div className="bg-slate-100">
+      <div id="blogs">
+        <Blogs />
+      </div>
+      <div id="contact" className="bg-slate-100">
         <Contact />
       </div>
     </div>

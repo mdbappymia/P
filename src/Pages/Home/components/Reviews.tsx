@@ -1,4 +1,4 @@
-import { FC, useRef, useState } from "react";
+import { FC } from "react";
 import reviews from "../../../assets/data/reviews.json";
 import ReviewCard from "../../../components/ReviewCard";
 // Import Swiper React components
@@ -17,24 +17,27 @@ const Reviews: FC = () => {
       <h1 className="lg:text-6xl md:text-5xl text-4xl text-center font-bold uppercase my-5 md:mb-20 mb-10">
         Reviews
       </h1>
-      <div className=" h-64 py-4">
+      <div className=" py-4">
         <Swiper
           effect={"coverflow"}
           grabCursor={true}
-          slidesPerView={3}
+          autoplay={{ delay: 500 }}
           centeredSlides={true}
-          coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-          }}
           pagination={{
             clickable: true,
           }}
           modules={[EffectCoverflow, Pagination]}
           className="mySwiper"
+          breakpoints={{
+            640: {
+              width: 640,
+              slidesPerView: 1,
+            },
+            768: {
+              width: 768,
+              slidesPerView: 1,
+            },
+          }}
         >
           {reviews.map((item: any, i: any) => (
             <SwiperSlide key={i}>
