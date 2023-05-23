@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hr__line{
+  color: red !important;
+  border-top-width: 9px !important;
+}
+.site__nav, .footer{
+  background-color: transparent !important;
+}
+.header {
+  background-color: rgb(249, 250, 241);
+}
+
+
