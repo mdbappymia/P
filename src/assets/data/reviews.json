@@ -3,13 +3,15 @@
       "_id": "61a4ce5b3d87cf0f70e34966",
       "rate": 4,
       "name": "bappy",
-      "message": "good"
+      "message": "good",
+      "status":"pending"
     },
     {
       "_id": "61a4d13812f0aaa55222cefc",
       "rate": 5,
       "name": "Ashik",
-      "message": "good"
+      "message": "good",
+      "status":"pending"
     },
     {
       "_id": "61a6168ced4ce80ca563ad8b",
@@ -30,13 +32,6 @@
       "rate": 5,
       "name": "Jhankar Mahbub1",
       "message": "Creative",
-      "status": "pending"
-    },
-    {
-      "_id": "62efb82966c170e31fd19810",
-      "rate": 5,
-      "name": "মততাজ",
-      "message": "ঝাকানাকা ❤️",
       "status": "pending"
     },
     {

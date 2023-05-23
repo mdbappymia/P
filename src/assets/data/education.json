@@ -1,0 +1,20 @@
+[
+    {
+        "id":"1",
+        "instute_name":"Lorem ipsum dolor sit amet consectetur",
+        "subject":"ipsum dolor sit amet consectetur",
+        "starting_date":"1 Jan 2022",
+        "end_date":"31 Dec 2024",
+        "about_instute":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perferendis nisi obcaecati laboriosam",
+        "experience":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perferendis nisi obcaecati laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perferendis nisi obcaecati laboriosam"
+    },
+    {
+        "id":"2",
+        "instute_name":"Lorem ipsum dolor sit amet consectetur",
+        "subject":"ipsum dolor sit amet consectetur",
+        "starting_date":"1 Jan 2022",
+        "end_date":"31 Dec 2024",
+        "about_instute":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perferendis nisi obcaecati laboriosam",
+        "experience":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perferendis nisi obcaecati laboriosam Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perferendis nisi obcaecati laboriosam"
+    }
+]

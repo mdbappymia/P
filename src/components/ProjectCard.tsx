@@ -2,7 +2,6 @@ import { Button, Card } from "flowbite-react";
 import { FC } from "react";
 
 const ProjectCard: FC<any> = ({ item }) => {
-  console.log(item);
   return (
     <div className="max-w-sm">
       <Card

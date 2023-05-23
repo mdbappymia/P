@@ -14,7 +14,6 @@ const ProjectCardTest: FC<any> = ({
     return { ...element, onClick: () => setGoToSlide(index) };
   });
 
-  console.log(cardsArr);
   const [offsetRadius, setOffsetRadius] = useState(2);
   const [showArrowsP, setShowArrows] = useState(false);
   const [goToSlide, setGoToSlide] = useState<any>(null);

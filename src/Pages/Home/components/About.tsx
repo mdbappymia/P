@@ -2,8 +2,17 @@
 import { Tabs } from "flowbite-react";
 import { FC } from "react";
 import { FaAward, FaGraduationCap, FaHome } from "react-icons/fa";
+import { useSelector } from "react-redux";
+import { RootState } from "../../../redux/store/store";
 
 const About: FC = () => {
+  const { about, education } = useSelector(
+    (state: RootState) => state.portfolio.data
+  );
+  console.log(education);
+  if (!about?.name || education?.id) {
+    return <h1>Loading</h1>;
+  }
   return (
     <div className="container mx-auto lg:py-20 md:py-10 py-5">
       <h1 className="lg:text-6xl md:text-5xl text-4xl text-center font-bold uppercase my-5 md:mb-20 mb-10">
@@ -14,14 +23,7 @@ const About: FC = () => {
           <h1 className="font-bold lg:text-3xl text-2xl mb-5 border-b pb-2">
             Who I am?
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis
-            molestias quia dolore vel laboriosam ullam, earum id veniam
-            voluptate obcaecati vero aliquam autem eligendi quos totam, dolor
-            velit nobis eum. Quasi, totam laborum illo tempore nisi nihil
-            architecto quibusdam aliquam esse, dicta error similique maxime
-            eaque expedita suscipit quod fugit.
-          </p>
+          <p>{about.about_me}</p>
         </div>
         <div>
           <h1 className="font-bold lg:text-3xl text-2xl mb-5 border-b pb-2">
