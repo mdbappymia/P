@@ -1,27 +1,22 @@
 [
-    {
-        "name":"React JS",
-        "experience_year":"3",
-        "parcentage":"80"
-    },
-    {
-        "name":"Node JS",
-        "experience_year":"3",
-        "parcentage":"70"
-    },
-    {
-        "name":"MongoDB",
-        "experience_year":"3",
-        "parcentage":"75"
-    },
-    {
-        "name":"Express JS",
-        "experience_year":"3",
-        "parcentage":"80"
-    },
-    {
-        "name":"Angular JS",
-        "experience_year":"3",
-        "parcentage":"860"
-    }
+  {
+    "id": "1",
+    "name": "React JS",
+    "experience_year": "3",
+    "parcentage": "80"
+  },
+  { "id": "2", "name": "Node JS", "experience_year": "3", "parcentage": "70" },
+  { "id": "3", "name": "MongoDB", "experience_year": "3", "parcentage": "75" },
+  {
+    "id": "4",
+    "name": "Express JS",
+    "experience_year": "3",
+    "parcentage": "80"
+  },
+  {
+    "id": "5",
+    "name": "Angular JS",
+    "experience_year": "3",
+    "parcentage": "60"
+  }
 ]

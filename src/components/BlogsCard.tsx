@@ -4,7 +4,7 @@ import { FC } from "react";
 const BlogsCard: FC<any> = ({ blog }) => {
   return (
     <div>
-      <Card>
+      <Card className="hover:scale-105 transition-all">
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           {blog.title}
         </h5>

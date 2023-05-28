@@ -7,6 +7,7 @@ const ProjectCard: FC<any> = ({ item }) => {
       <Card
         imgAlt="Meaningful alt text for an image that is not purely decorative"
         imgSrc="https://flowbite.com/docs/images/blog/image-1.jpg"
+        className="hover:scale-105 transition-all"
       >
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           {item.name?.length < 20

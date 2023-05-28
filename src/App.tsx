@@ -6,6 +6,10 @@ import about from "./assets/data/about.json";
 import education from "./assets/data/education.json";
 import { setAllData } from "./redux/slices/portfolioSlice";
 import { useDispatch } from "react-redux";
+import experience from "./assets/data/experience.json";
+import skills from "./assets/data/skills.json";
+import services from "./assets/data/service.json";
+import reviews from "./assets/data/reviews.json";
 
 const App: FC = () => {
   const dispatch = useDispatch();
@@ -14,6 +18,10 @@ const App: FC = () => {
       setAllData({
         about,
         education,
+        experience,
+        skills,
+        services,
+        reviews,
       })
     );
   }, [dispatch]);

@@ -1,22 +1,22 @@
 [
-    {
-        "id":"1",
-        "designation":"Web Developer",
-        "company_name":"Lorem ipsum dolor sit amet consectetur adipisicing",
-        "about_work":"Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing",
-        "working_technologis":["React JS", "Node JS", "C#", "Pythone"],
-        "starting_date":"1 Jan 2022",
-        "end_date":"31 Dec 2024",
-        "about_company":"Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing"
-    },
-    {   
-        "id":"2",
-        "designation":"Web Developer",
-        "company_name":"Lorem ipsum dolor sit amet consectetur adipisicing",
-        "about_work":"Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing",
-        "working_technologis":["React JS", "Node JS", "C#", "Pythone"],
-        "starting_date":"1 Jan 2022",
-        "end_date":"31 Dec 2024",
-        "about_company":"Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing"
-    }
+  {
+    "id": "1",
+    "designation": "Web Developer",
+    "company_name": "Lorem ipsum dolor sit amet consectetur adipisicing",
+    "about_work": "Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing",
+    "working_technologis": ["React JS", "Node JS", "C#", "Python"],
+    "starting_date": "1 Jan 2022",
+    "end_date": "31 Dec 2024",
+    "about_company": "Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing"
+  },
+  {
+    "id": "2",
+    "designation": "Web Developer",
+    "company_name": "Lorem ipsum dolor sit amet consectetur adipisicing",
+    "about_work": "Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing",
+    "working_technologis": ["React JS", "Node JS", "C#", "Python"],
+    "starting_date": "1 Jan 2022",
+    "end_date": "31 Dec 2024",
+    "about_company": "Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet consectetur adipisicing"
+  }
 ]
